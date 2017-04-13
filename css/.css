@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS ��ʼ�� */
+body, div, span, i, b, em, strong, img, h1, h2, h3, a, ul, li, input, select, option, button, dl, dt, dd, p, form, ol, label {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: #969696;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #969696;
+}
+
+img {
+    border: 0 none;
+    vertical-align: top;
+}
+
+body {
+    font-family: "������ͤ��,΢���ź�";
+    background: #f1f1f1;
+    color: #969696;
+    font-size: 14px;
+    margin: 0 auto;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.clearfix:after {
+    content: '.';
+    visibility: hidden;
+    clear: both;
+    height: 0;
+    display: block;
+}
